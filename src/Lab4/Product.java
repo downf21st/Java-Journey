@@ -35,7 +35,7 @@ public class Product {
 		this.tax = tax;
 	}
 
-// Lấy thông tin 
+// Lấy thông tin cvbnv
 	public void xuatthongtin() {
 		System.out.println("Name: " + this.getName());
 		System.out.println("Price: " + this.getPrice());
