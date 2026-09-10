@@ -12,6 +12,7 @@ public class sumN {
             System.out.println(ans);
 
         }
+    sc.close();
 
     }
 }
