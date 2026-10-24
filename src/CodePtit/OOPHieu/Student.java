@@ -29,21 +29,21 @@ public class Student {
     }
 
     public double getDiemCC() {
-        if(diemCC < 0 || diemCC > 10) {
+        if (diemCC < 0 || diemCC > 10) {
             return -1;
         }
         return diemCC;
     }
 
     public double getDiemGK() {
-        if(diemGK < 0 || diemGK > 10) {
+        if (diemGK < 0 || diemGK > 10) {
             return -1;
         }
         return diemGK;
     }
 
     public double getDiemCK() {
-        if(diemCK < 0 || diemCK > 10) {
+        if (diemCK < 0 || diemCK > 10) {
             return -1;
         }
         return diemCK;
@@ -54,7 +54,7 @@ public class Student {
         double gk = getDiemGK();
         double ck = getDiemCK();
 
-        if(cc == -1 || gk == -1 || ck == -1) {
+        if (cc == -1 || gk == -1 || ck == -1) {
             return -1;
         }
 
